@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bot-background: #D6DAE0;
+  --user-background: #FFAA00;
+  --user-text-color: #FFFFFF;
+  --bot-text-color: #515F75;
+}
+
+#code7-boteria-bot-widget-chat-header {
+  border-radius: unset !important;
+  -webkit-box-shadow: unset !important;
+  box-shadow: unset !important;
+}
+#code7-boteria-bot-widget-chat-faq {
+  border-radius: unset !important;
+  height: -webkit-fill-available !important;
+  width: 100vw !important;
+  bottom: 0px  !important;
+  right: 0px !important;
+  left: 0px !important;
+  top: 0px !important;
+}
+#code7-boteria-bot-widget-footer {
+  border-radius: unset !important;
+}
+
+#bot-widget-container-faq {
+  display: none;
+}
+.fast {
+  animation-duration: unset !important;
+  -webkit-animation-duration: unset !important;
+}
+.quick-access-container {
+  bottom: 62px;
+  max-width: 260px;
+}
+#code7-boteria-bot-acessibility {
+  max-width: 260px;
+  right: 0px;
+  height: unset;
+}
+.code7-boteria-bot-widget-chat-footer {
+  width: -webkit-fill-available !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+.code7-boteria-bot-widget-chat-input-container {
+  width: inherit !important;
+}
+
+.code7-boteria-bot-widget-chat-message {
+  background-color: var(--bot-background) !important;
+}
+
+.code7-boteria-bot-widget-chat-message-user {
+  background-color: var(--user-background) !important;
+}
+
+#code7-boteria-bot-widget-chat-header {
+  background-color: var(--user-background) !important;
+}
+
+.code7-boteria-bot-widget-chat-message-user {
+  color: var(--user-text-color) !important;
+}
+#code7-boteria-bot-headerBotNome{
+  color: var(--user-text-color) !important;
+}
+
+.code7-boteria-bot-widget-chat-message {
+  color: var(--bot-text-color) !important;
+}
