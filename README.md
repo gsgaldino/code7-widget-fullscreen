@@ -1,6 +1,6 @@
 # Widget fullscreen
 
-Um projeto simples que cria uma instância do nosso chatbot (Boteria) e sobrescreve alguns estilos..
+Um projeto simples que cria uma instância do nosso chatbot (Boteria) e sobrescreve alguns estilos.
 
 ## Parâmetros disponíveis
 
