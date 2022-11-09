@@ -6,11 +6,11 @@ import 'styles/globals.css';
 const App = () => {
   const params = [
     'id',
-    'botName',
-    'botBackground',
-    'userBackground',
-    'userTextColor',
-    'botTextColor',
+    'bot-name',
+    'bot-bg-color',
+    'user-bg-color',
+    'user-text-color',
+    'bot-text-color',
   ].reduce((prev, acc) => {
     prev[acc] = queryParams.get(acc);
     return prev;
@@ -20,11 +20,11 @@ const App = () => {
     if (params.id) {
       renderBotWidget({
         botId: params.id,
-        botName: params.botName,
-        botBackground: params.botBackground,
-        userBackground: params.userBackground,
-        botTextColor: params.botTextColor,
-        userTextColor: params.userTextColor,
+        botName: params['bot-name'],
+        botBackground: params['bot-bg-color'],
+        userBackground: params['user-bg-color'],
+        botTextColor: params['bot-text-color'],
+        userTextColor: params['user-text-color'],
       });
     } else {
       alert('Missing bot id on query params! E.g http://myurl.com?id=YOUR_BOT_ID');
